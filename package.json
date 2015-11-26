@@ -1,0 +1,15 @@
+{
+  "name": "Foo",
+  "version": "1.0.0",
+
+  "dependencies": {
+    "typescript": "latest"
+  },
+
+  "scripts": {
+    "clean": "rm -rf src/*.js",
+    "build-src": "$(npm bin)/tsc -p src",
+    "build-test": "$(npm bin)/tsc -p test",
+    "build-all": "npm run build-src; npm run build-test"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "noImplicitAny": true
+  },
+
+  "files": [
+    "../typings/jasmine.d.ts",
+
+    "../src/Foo.ts",
+    "../src/Foo.spec.ts"
+  ]
+}
