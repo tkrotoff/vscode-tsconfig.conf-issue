@@ -1,4 +1,4 @@
-Visual Studio Code tsconfig.json issue
+Visual Studio Code tsconfig.json issue: https://github.com/Microsoft/vscode/issues/716
 
 # Tasks
 
